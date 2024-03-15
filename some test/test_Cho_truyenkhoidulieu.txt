@@ -1,0 +1,9 @@
+Serial.print(pos);
+  Serial.print(',');
+  if (khoangcach < 800 && khoangcach !=0 ) {
+    Serial.println(khoangcach);
+  }else{
+    Serial.println(-1);
+  }
+  
+  radar_move(); 
